@@ -203,4 +203,10 @@
 		
         </plugins>
     </build>
+	<repositories>
+    <repository>
+      <id>${NEXUS_GRP_REPO}</id>
+      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${vprofile-snapshot}/</url>
+    </repository>
+  </repositories>
 </project>
