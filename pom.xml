@@ -205,7 +205,8 @@
     </build>
 	<repositories>
     <repository>
-      <id>${NEXUS_GRP_REPO}</id>
+      <!-- <id>${NEXUS_GRP_REPO}</id> -->
+	    <id>Nexus</id>
       <!--<url>http://${NEXUSIP}:${NEXUSPORT}/repository/${vprofile-snapshot}/</url> -->
 	    <url>http://3.14.73.72:8081/repository/vprofile-snapshot/</url>
     </repository>
